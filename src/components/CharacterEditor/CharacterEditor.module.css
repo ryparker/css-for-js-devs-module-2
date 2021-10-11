@@ -1,6 +1,7 @@
 .characterEditor {
   padding-top: 128px;
   padding-bottom: 64px;
+  padding: 128px 16px 64px 16px;
 }
 
 .grayBar {
@@ -13,15 +14,13 @@
 }
 
 .maxWidthWrapper {
-  display: block;
   max-width: 1024px;
   isolation: isolate;
 }
 
 .header {
   padding-bottom: 64px;
-  max-width: 600px;
-  height: 65%;
+  width: 65%;
 }
 
 .title {
@@ -38,16 +37,13 @@
 }
 
 .characterWrapper {
-  display: block;
   position: fixed;
-  top: 250px;
+  top: 30%;
   left: 60%;
+  bottom: 5%;
   min-height: 500px;
-  width: 512px;
-  max-width: 50%;
 }
 
 .controlColumn {
-  max-width: 500px;
   width: 50%;
 }
